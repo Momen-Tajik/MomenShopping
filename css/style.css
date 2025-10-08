@@ -1,0 +1,58 @@
+body
+{
+    margin: 0;
+
+}
+.hidden
+{
+    display: none;
+}
+.nav
+{
+    background-color: whitesmoke;
+
+}
+.desktopnavbar
+{
+    display: flex;
+    justify-content: right;
+
+}
+.mobilenavbar a
+{
+    padding: 15px;
+    margin: 10px;
+    font-size: 15px;
+}
+.mobilenavbar a:hover
+{
+    color: red;
+    cursor: pointer;
+}
+
+.desktopnavbar a
+{
+    padding: 15px;
+    margin: 10px;
+    font-size: 15px;
+    
+}
+.desktopnavbar a:hover
+{
+    color: red;
+    cursor: pointer;
+}
+
+@media (max-width:600px)
+{
+    .mobilenavbar
+    {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .desktopnavbar
+    {
+        display: none;
+    }
+}
